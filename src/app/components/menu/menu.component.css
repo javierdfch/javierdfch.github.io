@@ -1,0 +1,22 @@
+nav {
+    background-color: blue;
+    color: white;
+    position: fixed;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 2;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
