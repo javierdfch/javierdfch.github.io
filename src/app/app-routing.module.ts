@@ -7,10 +7,11 @@ import { ResumeComponent } from './pages/resume/resume.component';
 
 
 const routes: Routes = [
-  { path: 'inicio', component: InicioComponent },
-  { path: 'contactenos', component: ContactenosComponent },
-  { path: 'project', component: ProjectComponent},
-  { path: 'resume', component: ResumeComponent}
+  { path: '', component: InicioComponent, pathMatch:"full" },
+  { path: 'inicio', component: InicioComponent, pathMatch:"full" },
+  { path: 'contactenos', component: ContactenosComponent, pathMatch:"full" },
+  { path: 'project', component: ProjectComponent, pathMatch:"full"},
+  { path: 'resume', component: ResumeComponent, pathMatch:"full"}
 ];
 
 @NgModule({
